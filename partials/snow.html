@@ -1,0 +1,10 @@
+<div class="gamebackground" ng-click="display = true">
+
+  <div class="fade" ng-if="display">
+    <h1>You are <a href="#" ng-click="show = true">alone</a> in the snow.</h1>
+  </div>
+
+  <div class="fade" ng-if="show && display">
+    <h2>You are not holding anything.</h2>
+  </div>
+</div>
